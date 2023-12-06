@@ -1,7 +1,6 @@
 ﻿---
 
 mermaid: true
-math:true
 
 ---
 
