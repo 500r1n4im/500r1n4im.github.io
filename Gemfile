@@ -37,5 +37,5 @@ group :jekyll_plugins do
   gem "jekyll-cli-plus"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-admin"
-  gem "jekyll-cli-plus"
+  gem "some-other-jekyll-plugin"
 end
