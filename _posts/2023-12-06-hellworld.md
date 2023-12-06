@@ -1,6 +1,7 @@
 ﻿---
 
 mermaid: true
+math: true
 
 ---
 
@@ -132,11 +133,7 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 ## KaTeX
 
----
 
-math: true
-
----
 
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
