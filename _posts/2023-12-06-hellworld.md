@@ -1,8 +1,11 @@
 ﻿---
+
 mermaid: true
 math:true
 
 ---
+
+
 # Welcome to Yamto's log!
 
 
