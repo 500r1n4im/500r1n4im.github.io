@@ -32,9 +32,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Gems loaded irrespective of site configuration.
 group :jekyll_plugins do
- gem "jekyll-cli-plus"
  gem "jekyll-admin"
- gem "jekyll-seo-tag", "~> 1.5"
+ gem "jekyll-seo-tag", "~> 2.8"
  gem "some-other-jekyll-plugin"
 end
 
