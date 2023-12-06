@@ -4,6 +4,9 @@ mermaid: true
 
 ---
 
+---
+math: true
+---
 
 # Welcome to Yamto's log!
 
@@ -127,7 +130,7 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 |Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
  
-<!-- 
+
 
 ## KaTeX
 
@@ -140,4 +143,3 @@ $$
 $$
 
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference). 
--->
