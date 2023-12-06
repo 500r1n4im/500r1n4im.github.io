@@ -12,8 +12,6 @@ end
 # site configuration.
 gem "jekyll-gist"
 gem "jekyll-coffeescript"
-gem "jekyll-cli-plus"
-gem "jekyll-seo-tag", "~> 2.8"
 gem "jekyll-admin"
 
 
@@ -34,8 +32,9 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Gems loaded irrespective of site configuration.
 group :jekyll_plugins do
-  gem "jekyll-cli-plus"
-  gem "jekyll-seo-tag", "~> 2.8"
-  gem "jekyll-admin"
-  gem "some-other-jekyll-plugin"
+ gem "jekyll-cli-plus"
+ gem "jekyll-admin"
+ gem "jekyll-seo-tag", "~> 1.5"
+ gem "some-other-jekyll-plugin"
 end
+
