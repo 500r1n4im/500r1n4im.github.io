@@ -1,6 +1,9 @@
 ---
 ---
 
+$font-family-base: 'Pretendard', 'Noto Sans KR', sans-serif;
+$font-family-heading: 'Pretendard', sans-serif;
+
 /* prettier-ignore */
 @use 'main
 {%- if jekyll.environment == 'production' -%}
