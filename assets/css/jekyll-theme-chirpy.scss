@@ -12,3 +12,57 @@ $font-family-heading: 'Pretendard', sans-serif;
 ';
 
 /* append your custom style below */
+html, body {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+}
+
+/* 사이트 메인 타이틀 / 로고 느낌 */
+#sidebar .site-title,
+#sidebar .site-subtitle {
+  font-family: 'Press Start 2P', 'Pixelify Sans', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+/* 사이드바 메뉴 */
+#sidebar ul li a,
+nav a,
+.tab {
+  font-family: 'Silkscreen', 'Pixelify Sans', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* 글 제목 / 페이지 제목 */
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.page-title {
+  font-family: 'Pixelify Sans', 'Pretendard', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+// /* 글 제목을 좀 더 디지털하게 */
+// .post-title,
+// .page-title {
+//   text-transform: uppercase;
+//   letter-spacing: 0.05em;
+// }
+
+
+/* 카테고리 / 태그 / 뱃지 */
+.category,
+.tag,
+.post-tag,
+.post-category {
+  font-family: 'Silkscreen', 'Pixelify Sans', sans-serif;
+}
+
+/* 코드 블록 */
+code, pre, kbd, samp {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+
+/* 사이드바 메뉴를 더 도트스럽게 */
+#sidebar ul li a {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+}
